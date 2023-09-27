@@ -9,7 +9,7 @@ import unittest
 '''
 class unittest.TestCase(methodName='runTest'):
 '''
-class myTestCaset(unittest.Testcase):
+class myTestCase(unittest.Testcase):
     def setUp():
         return
     def tearDown():
