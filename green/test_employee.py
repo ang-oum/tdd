@@ -49,3 +49,5 @@ class TestEmployeeComputePayout(unittest.TestCase):
         self.arjan.has_commission = False
         self.assertAlmostEqual(self.arjan.compute_payout(), 2000.0)
 
+if __name__ == "__main__":
+    unittest.main()
