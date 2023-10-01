@@ -5,7 +5,7 @@ class Category:
   def __init__(self, category): #object instance
     self.category = category
     self.ledger = []            #instance variable
-    
+
   def __str__(self):
     # When the budget object is printed it should display: #
     s = self.category.center(30, "*") + "\n"
