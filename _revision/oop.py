@@ -52,4 +52,3 @@ print(friend1.humans)
 del friend1
 print(Friend.humans)
 
-

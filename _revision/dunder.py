@@ -16,10 +16,13 @@ p = Person("Mike", 25)
 
 
 
-
-
-
-
+#____________________________________________________________
+# operator overloading
+#____________________________________________________________
+'''
+__add__()
+__sub__()
+'''
 
 
 
@@ -36,6 +39,11 @@ class Vector:
         #other also has to be a vector
         #which we are not checking since python is dynamically written (so we can also pass anything else)
         return Vector(self.x + other.x, self.y + other.y)
+    ''''''''''''
+    def __sub__(self, other):
+        #other also has to be a vector
+        #which we are not checking since python is dynamically written (so we can also pass anything else)
+        return Vector(self.x - other.x, self.y - other.y)
     ''''''''''''
     def __repr__(self):
         return f"X: {self.x}, Y: {self.y}"
