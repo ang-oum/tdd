@@ -14,6 +14,19 @@ p = Person("Mike", 25)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Vector:
     def __init__(self, x, y):
         self.x = x
@@ -26,7 +39,14 @@ class Vector:
     ''''''''''''
     def __repr__(self):
         return f"X: {self.x}, Y: {self.y}"
-    
+    ''''''''''''
+    def __len__(self):
+        print("opens ability to return length of object if Vector object ")
+        return 10
+    ''''''''''''
+    def __call__(self):
+        print("I was called")
+       
 
 
 
@@ -47,5 +67,13 @@ print(v3)
 '''
 #--> __str__
 #--> __repr__
+'''
+
+'''
+print(len(v3))
+'''
+
+'''
+v3()
 
 
