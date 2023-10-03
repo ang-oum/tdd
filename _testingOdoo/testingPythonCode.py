@@ -13,6 +13,7 @@ Test modules should have a name starting with test_ and should be imported from 
 #           |   ├── __init__.py
 #           |   ├── test_bar.py
 #           |   └── test_foo.py
+
 '''
 __init__.py
 contains:
