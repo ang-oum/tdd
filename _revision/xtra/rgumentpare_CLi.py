@@ -7,13 +7,6 @@ import getopt
 opts, args = getopt.getopt(sys.argv[1:], "f:m", ['filename', 'message'])
 
 
-
-
-
-
-
-
-
 def myfunction(*args, **kwargs):
     print(args[0])
     print(args[1])

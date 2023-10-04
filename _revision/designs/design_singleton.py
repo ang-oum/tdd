@@ -1,0 +1,1 @@
+#class with one single instance
