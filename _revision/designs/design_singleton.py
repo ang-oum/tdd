@@ -42,8 +42,9 @@ p = PersonSingleton("Bob", 24)
 print(p)
 p.print_data()
 
-    
 
-
-
+#not possible to create a second instance
+p2 = PersonSingleton.get_instance()
+print(p2)
+p2.print_data()
     
