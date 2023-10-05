@@ -1,7 +1,7 @@
 #https://www.youtube.com/watch?v=iSG87hpAFhQ&list=TLPQMDMxMDIwMjPGzxZERpF2sg&index=10
 #
 #multiple classes that inherit from same interface or parent class
-# one of those can exist from many subcomponents
+# one of those can exist of many subcomponents
 #
 #parent>multiple>sub-multiple
 #
