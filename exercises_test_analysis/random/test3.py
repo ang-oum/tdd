@@ -1,6 +1,6 @@
 import unittest
 
-from src.code3 import gcd as this_func
+from code3 import gcd as this_func
 
 
 class Code2Test(unittest.TestCase):
