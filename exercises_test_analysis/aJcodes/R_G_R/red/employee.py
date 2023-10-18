@@ -23,6 +23,6 @@ class Employee:
         #if self.has_commission:
         #    payout += self.commission * self.contracts_landed
         #return payout
-        raise NotImplementedError()
+        #raise NotImplementedError()
     
 
