@@ -25,7 +25,7 @@ def myfunction(x):
 
 
 
-print(myfunction(100000))
+print(myfunction(100))
 
 
 

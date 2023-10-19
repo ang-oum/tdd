@@ -25,6 +25,7 @@ class UnitTests(unittest.TestCase):
     def test_withdraw(self):
         self.food.deposit(900, "deposit")
         self.food.withdraw(45.67, "milk, cereal, eggs, bacon, bread")
+        
         actual = self.food.ledger[1]
         expected = {"amount": -45.67, "description": "milk, cereal, eggs, bacon, bread"}
         self.assertEqual(actual, expected, 'Expected `withdraw` method to create a specific object in the ledger instance variable.')
